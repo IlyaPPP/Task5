@@ -21,13 +21,11 @@ int[] FillArray(int n)
 
 void Count_Pol()
 {
-    {
-        for (int i = 0; i < n; i++)
-            if (array[i] > 0)
-                count_pol++;
-            else
-                continue;
-    }
+    for (int i = 0; i < n; i++)
+        if (array[i] > 0)
+            count_pol++;
+        else
+            continue;
 }
 
 
